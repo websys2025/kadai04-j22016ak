@@ -37,7 +37,7 @@ remainArea[this.id].innerHTMLと、どうにかして行の指定を行おうと
 * 1,金額の投入  
   金額を入力させるためにラベルタグと入力した値を処理するためボタンタグを用意した。  
   金額は変数moneyに格納し、**function button_money**で、moneyに代入を行った。  
-  購入結果を表示させるための変数はback_moneyでid=**okane**の部分にアクセスした。  
+  購入結果を表示させるための変数は**back_money**でid=**okane**の部分にアクセスした。  
     
 * 2,商品の購入  
   **if money>=this.price**条件を用いて、残金で商品を購入できるかどうか分岐する。  
